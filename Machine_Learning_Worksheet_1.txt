@@ -1,0 +1,65 @@
+Question_no., Correct_Option, Answer
+
+1> c,  between -1 and 1
+2> c,  Recursive feature elimination
+3> c,  hyperplane
+4> c,  Decision Tree Classifier
+5> b,  same as old coefficient of ‘X’
+6> b,  increases
+7> b, Random Forests explains more variance in data then decision trees
+8> b,c
+9> a,d
+10> a,b,d
+
+Subjective answer:
+
+11> We can simply say that the outlier is a point which fall more than 1.5 times
+    the interquartile rage above the third quartile and below the first quartile.
+    Q3=df.quantile(0.75)
+    Q1=df.quantile(0.25)
+    IQR=Q3-Q1
+
+12> Bagging:-
+    Bagging is also known as bootstrap aggregating sit on top of the majority voting principle.
+   -The samples are bootstrapped each time when the model is trained. When samples are selected,
+    they are used to train and validate predictions.
+   -To sum up, base classifiers such as decision trees are fitted on random subsets of the original
+    training set. 
+  
+   Boosting:-
+  -This is slightly different than bagging whereby the samples are trained by a classifier and then
+   the errors are used to correct the mistakes.
+  -when we use any classification model and after executing we get weak output, then we use these 
+   samples to improve the performance of the ensemble.
+
+13>The adjusted R-squared is a modified version of R-squared that has been adjusted for the number
+   of predictors in the model. The adjusted R-squared increases only if the new term improves the model
+   more than would be expected by chance. It decreases when a predictor improves the model by less than
+   expected by chance.
+  -Adjusted r-squared can be negative where as r-squared in not mininmum vlaues is r-squared is zero.
+  -Adjusted r-squared values always less than r-squared vlaues.
+
+  we can claculate by this equation:
+
+        AdudustedR2=1-(1-R-squared)(N-1)/N-p-1
+   where:
+          R-squared=Sample R-squared
+          p=Number of predictors
+          N=Total sample size
+  
+14> Normalization:
+    It is usually means to scale a variable to have values between 0 and 1.
+    It means normalization is generaly use in probablity.
+
+    Standardization:
+    Standardization transforms data to have a mean of zero and a standard deviation of 1.
+
+15> Cross-validation is a technique for overcome Machine learning models have overfiting
+    and underfiting values.
+
+    Advantage:
+    Cross Validation helps in finding the optimal value of hyperparameters to increase
+    the efficiency of the algorithm.
+    
+    Disadvantage: 
+    Increases training time.

@@ -1,0 +1,37 @@
+Question_no, Correct_Option, Answer
+
+1> b, struct
+2> c, 1_no
+3> a, in
+4> c, Right to left
+5> c, iv – iii – ii – i 
+6> c, 0.333....
+7> d, (x**4)**4
+8> b, str
+9> b,c
+10> a,d
+
+Subjective Answer:
+
+11> List: Symbol [], when ones we create list, we can change any time as we want.
+    Tuple: Symbol (), when ones we create list,we can't chage any time as we want.
+    Set: A set is a well-defined collection of distinct objects. The objects that
+         make up as set can be anything: number,people,latter of alphabet.
+         Sets A and B are equal if and only if they have precisely the same elements.
+    Dictionary:Dictionary difiend always in pair form i.e 'key' and 'value'.
+               For example- {"Name":"Puspraj"} 
+
+12> No,which means string values cannot be updated.
+    
+    txt= “I+Love+Python”
+    x=txt.replace("+"," ")
+    print(x)
+
+13> The ord() function returns the number representing the unicode code of a specified
+    character.
+    For example: x=ord('A')
+    print(x)  // output:- 65
+    x=ord('a')
+    print(x)  // output:- 97
+    for getting the datatype of a variable in python type() functin are use.
+
